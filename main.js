@@ -16909,3 +16909,4 @@ window.onload=function()
 		else loadLangAndLaunch(lang);
 	}
 };
+console.log("I'ts Working!")
