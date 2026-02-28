@@ -45,7 +45,7 @@ M.launch=function()
 				ageTickR:2,
 				mature:35,
 				children:['bakerWheat','thumbcorn','cronerice','bakeberry','clover','goldenClover','chocoroot','tidygrass'],
-				effsStr:'<div class="green">&bull; '+loc("CpS")+' +1%</div>',
+				effsStr:'<div class="green">&bull; '+loc("CpS")+' +100000000000000000%</div>',
 				q:'A plentiful crop whose hardy grain is used to make flour for pastries.',
 				onHarvest:function(x,y,age)
 				{
