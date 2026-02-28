@@ -36,6 +36,22 @@ M.launch=function()
 					if (age>=this.mature) M.dropUpgrade('Wheat slims',0.001);
 				},
 			},
+			'customcrop':{
+				name:'Custom Crop',
+				icon:0,
+				cost:1,
+				costM:30,
+				ageTick:7,
+				ageTickR:2,
+				mature:35,
+				children:['bakerWheat','thumbcorn','cronerice','bakeberry','clover','goldenClover','chocoroot','tidygrass'],
+				effsStr:'<div class="green">&bull; '+loc("CpS")+' +1%</div>',
+				q:'A plentiful crop whose hardy grain is used to make flour for pastries.',
+				onHarvest:function(x,y,age)
+				{
+					if (age>=this.mature) M.dropUpgrade('Wheat slims',0.001);
+				},
+			},
 			'thumbcorn':{
 				name:'Thumbcorn',
 				icon:1,
