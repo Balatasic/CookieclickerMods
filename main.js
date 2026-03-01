@@ -13722,6 +13722,8 @@ Game.Launch=function()
 		order=1050;
 		new Game.Achievement('All on deck',loc("Have <b>%1</b>.",loc("%1 cursor",LBeautify(900))),[0,19]);
 		new Game.Achievement('A round of applause',loc("Have <b>%1</b>.",loc("%1 cursor",LBeautify(1000)))+'<q>Boy, are my arms tired!</q>',[0,28]);
+		new Game.Upgrade('Test',loc("You can see it? Then the mod <works")+'<q>prod prod</q>',100,[0,0]);Game.MakeTiered(Game.last,1,0);
+
 		
 		//end of achievements
 		
